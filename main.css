@@ -1,12 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css"> 
-</head>
-<body>
 
-</body>
-</html>
+
+body {
+  background: url(assetes/freedom.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 100%;
+  color: #333;
+}
+
+.wrapper {  
+text-align: center;  
+width: 90%;
+padding-top: 4rem;
+margin: 0 auto;
+  
+}
+
+.quote {
+  font-size: 2.1rem;  
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.byline {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  }
+
+p {
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
